@@ -1,5 +1,6 @@
-import { Home, BarChart3, FileText, BookOpen, Settings, Menu, X } from 'lucide-react';
+import { BarChart3, BookOpen, FileText, Home, Menu, Settings, X } from 'lucide-react';
 import { useState } from 'react';
+import logo from "../assets/logo.png";
 
 interface NavigationProps {
   currentPage: string;
@@ -22,11 +23,11 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-red-500 rounded-lg flex items-center justify-center shadow-lg">
-              <span className="text-2xl font-bold">🚨</span>
+            <div className="w-10 h-10  rounded-lg flex items-center justify-center shadow-lg">
+              <img src={logo} alt="SIAPSIAGA" className="h-10 w-auto" />
             </div>
             <div>
-              <h1 className="text-xl font-bold tracking-tight">SiagaBencana AI</h1>
+              <h1 className="text-xl font-bold tracking-tight">SiapSiaga</h1>
               <p className="text-xs text-blue-200">Disaster Preparedness System</p>
             </div>
           </div>

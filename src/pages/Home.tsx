@@ -1,4 +1,4 @@
-import { AlertTriangle, Activity, Droplets, Flame, Mountain, TrendingUp, MapPin, Clock, Bell } from 'lucide-react';
+import { Activity, AlertTriangle, Bell, Clock, Droplets, Flame, MapPin, Mountain, TrendingUp } from 'lucide-react';
 import { recentDisasters, statistics } from '../data/mockData';
 
 export default function Home() {
@@ -41,7 +41,7 @@ export default function Home() {
             <h1 className="text-5xl md:text-6xl font-bold mb-4 tracking-tight">
               Sistem Kesiapsiagaan
               <br />
-              <span className="text-yellow-300">Bencana Berbasis AI</span>
+              <span className="text-yellow-300">Bencana</span>
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
               Monitoring real-time, prediksi akurat, dan respons cepat untuk melindungi Indonesia dari bencana
