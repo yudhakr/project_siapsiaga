@@ -44,7 +44,7 @@ export default function Home() {
               <span className="text-yellow-300">Bencana</span>
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Monitoring real-time, prediksi akurat, dan respons cepat untuk melindungi Indonesia dari bencana
+              Monitoring real-time, prediksi akurat, dan respons cepat untuk melindungi kita dari bencana
             </p>
           </div>
 
