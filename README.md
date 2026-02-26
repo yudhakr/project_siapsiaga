@@ -36,4 +36,9 @@ npm install -g supabase
 ```Setup Project
 
 git clone https://github.com/USERNAME/project_siapsiaga.git
+
+```bash
 cd project_siapsiaga
+
+```bash
+menjalankan project  npm run dev
